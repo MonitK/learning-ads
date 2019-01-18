@@ -2,7 +2,7 @@
 
 void f(void);
 
-int int main(void)
+int main(void)
 {
   int i;
   for(i=0;i<10;i++)
@@ -15,7 +15,7 @@ int int main(void)
 void f(void)
 {
   int j=10;
-  printf("%d",j);
+  printf("%d ",j);
   j++;
     //The increment operator has no effect on value of j because it is local in f so is initiallised every time.
 }
