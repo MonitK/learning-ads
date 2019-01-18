@@ -5,7 +5,7 @@ using namespace std;
 class Student
 {
 	public:
-		char stname[20];
+		string stname;
 		int rollno;
 		double sapid;
 
