@@ -7,13 +7,15 @@ class Student
 {
 private:
 	int rollno;
-	char stname[10];
+	string stname;
 public:
 	class Student *next;
 	void addStudent()
 	{
-		cout<<"\nEnter Rollno : "; cin>>rollno;
-		cout<<"Enter Student name : "; cin>>stname;
+		cout<<"\nEnter Rollno : ";
+		cin>>rollno;
+		cout<<"Enter Student name : ";
+		cin>>stname;
 		this->next=NULL;
 	}
 	void showStudent()
@@ -72,14 +74,14 @@ void deleteNode()
 		cout<<endl<<"List is empty"<<endl;
 		return;
 	}
-int rollno;
-cout<<"\nEnter rollno to be deleted : "; cin>>rollno;
-Student *temp,*prev;
-temp = start;
+	int rollno;
+	cout<<"\nEnter rollno to be deleted : "; cin>>rollno;
+	Student *temp,*prev;
+	temp = start;
 	while(temp!=NULL && temp->getRollno()!=rollno)
 	{
-	prev = temp;
-	temp=temp->next;
+		prev = temp;
+		temp=temp->next;
 	}
 
 	if(temp==NULL)
@@ -120,14 +122,14 @@ void showList()
 }
 int menu()
 {
-int choice;
+	int choice;
 	cout<<"\n0.\tExit"<<endl;
 	cout<<"1.\tAdd New Node"<<endl;
 	cout<<"2.\tDelete Node"<<endl;
 	cout<<"3.\tTraverse Node"<<endl;
 	cout<<"\n\tEnter Your choice : ";
 	cin>>choice;
-return choice;
+	return choice;
 }
 
 int main()
