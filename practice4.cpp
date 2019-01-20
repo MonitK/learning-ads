@@ -7,9 +7,10 @@ using namespace std;
 int main()
 {
   int arr[MAX], sum=0,i;
-
+  int count;
+  
   cout<<"Enter no. of elements : ";
-  cin>>int count;
+  cin>>count;
   for(i=0;i<count;i++)
   {
     arr[i]=i;
