@@ -1,4 +1,5 @@
 #include <iostream>
+#include <vector>
 
 #define MAX 100
 
@@ -6,9 +7,12 @@ using namespace std;
 
 int main()
 {
-  int arr[MAX], sum=0,i;
+  vector<int> arr(MAX);
+  //Define-time size
+
+  int sum=0,i;
   int count;
-  
+
   cout<<"Enter no. of elements : ";
   cin>>count;
   for(i=0;i<count;i++)
