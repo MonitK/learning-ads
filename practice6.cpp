@@ -1,18 +1,15 @@
 #include <iostream>
-#include <string.h>
+#include <string>
 
 using namespace std;
 
 int main()
 {
-  char str1[]="HELLO ";
-  char str2[]="WORLD";
-  char str[20];
+  string str1="HELLO ";
+  string str2="WORLD";
 
-  strcpy(str,str1);
-  //Copying first string to str
-  strcat(str,str2);
-  //Copying second string to str
+  string str = str1 + str2;
+  //Adding two strings directly using string methods
 
   cout<<str<<endl;
   return 0;
