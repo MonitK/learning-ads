@@ -10,10 +10,6 @@ class Student
 		double sapid;
 
 	public:
-		void input()
-		{
-
-		}
 		void display()
 		{
 			std::cout<<"\nName    :"<<stname;
