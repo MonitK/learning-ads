@@ -14,7 +14,7 @@ class Student
 		{
 			std::cout<<"\nName    :"<<stname;
 			std::cout<<"\nRoll No :"<<rollno;
-			std::cout<<"\nSAP ID  :"<<sapid;
+			std::cout<<"\nSAP ID  :"<<"5000"<<sapid;
 			std::cout<<"\n\n";
 		}
 };
@@ -26,7 +26,7 @@ int main()
 	std::cin>>s.stname;
 	std::cout<<"Enter Roll No : ";
 	std::cin>>s.rollno;
-	std::cout<<"Enter SAP ID : ";
+	std::cout<<"Enter SAP ID (after 5000) : ";
 	std::cin>>s.sapid;
 	s.display();
 	return 0;
