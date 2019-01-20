@@ -4,7 +4,7 @@ using namespace std;
 class Student
 {
 	private:
-		char stname[20];
+		string stname;
 		int rollno;
 		double sapid;
 
