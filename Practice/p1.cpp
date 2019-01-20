@@ -3,8 +3,8 @@
 
 using namespace std;
 
-#define TWO 2
-#define PI 3.14
+const int TWO = 2;
+const double PI = 3.14;
 
 int main()
 {
