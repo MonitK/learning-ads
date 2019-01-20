@@ -20,4 +20,6 @@ int main()
 Advantages of const over #define
   1.#define doesnt checks the datatype rather replaces directly
   2.the declarations in const are variables while in #define is a manifest constant
+  3.const can be watched in debugger while #define cant
+  4.const is only evaluated on initialisation while #define as many time as replaced
 */
