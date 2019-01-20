@@ -7,7 +7,6 @@ int main()
 {
   string str1="HELLO ";
   string str2="WORLD";
-  //No need to declare size
 
   string str = str1 + str2;
   //Adding two strings directly using string methods
