@@ -1,4 +1,5 @@
 #include <iostream>
+#include <vertor>
 
 using namespace std;
 
@@ -8,10 +9,11 @@ int main()
   int count, sum=0, i;
   cin >>count;
 
-  int *arr = (int*) malloc(sizeof(int)*count);
-  //Dynamically allocating size
+  vertor<int> arr;    //Default size
+  arr.resize(count);  //Set resize
+  //Dynamically allocating size using vector
 
-  for(i=0;i<count;i++)
+  for(i=0;i<arr.size();i++)
   {
     arr[i]=i;
     sum+=arr[i];
