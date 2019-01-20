@@ -15,14 +15,14 @@ class Student
 			std::cin>>stname;
 			std::cout<<"Enter Roll No : ";
 			std::cin>>rollno;
-			std::cout<<"Enter SAP ID : ";
+			std::cout<<"Enter SAP ID (afer 5000) : ";
 			cin>>sapid;
 		}
 		void display()
 		{
 			std::cout<<"\nName    :"<<stname;
 			std::cout<<"\nRoll No :"<<rollno;
-			std::cout<<"\nSAP ID  :"<<sapid;
+			std::cout<<"\nSAP ID  :"<<"5000"<<sapid;
 			std::cout<<"\n\n";
 		}
 };
