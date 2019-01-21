@@ -12,5 +12,7 @@ int main()
     // n is a constant so cant be changed
   //*p=7;
     // p points to constant data that cant be changed.
+  p=&m;
+    // because p is not a constant so can be changed.
   return 0;
 }
