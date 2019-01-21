@@ -8,7 +8,9 @@ int main()
   int m=4;
   const int n=5;
   const int *p=&n;
-  n=6;
-  *p=7;
+  //n=6;
+    // n is a constant so cant be changed
+  //*p=7;
+    // p points to constant data that cant be changed.
   return 0;
 }
