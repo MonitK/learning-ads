@@ -7,6 +7,8 @@ class Queue
 
 int main()
 {
+  int choice;
+
   cout<<"--------------------------------QUEUE USING ARRAY-------------------------------";
 
   cout<<endl<<endl<<endl<<endl;
@@ -14,5 +16,10 @@ int main()
   cout<<endl<<"2.\tPop elemnt from Stack";
   cout<<endl<<"3.\tDisplay elemnts in Stack";
   cout<<endl<<endl<<"0.\tExit";
+
+  cout<<endl<<endl<<endl;
+  cout<<"Enter your choice : ";
+  cin>>choice;
+
   return 0;
 }
