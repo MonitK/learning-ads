@@ -15,7 +15,7 @@ class Queue
   public:
     void push()
     {
-      cout<<"Enter element to be pushed";
+      cout<<"Enter element to be pushed : ";
       cin>>pushing_element;
       if (rear==SIZE)
       {
@@ -52,18 +52,23 @@ int main()
     {
       case 1:
         q.push();
+        cout<<endl<<endl<<endl;
         break;
       case 2:
         cout<<"Pop";
+        cout<<endl<<endl<<endl;
         break;
       case 3:
         cout<<"Display";
+        cout<<endl<<endl<<endl;
         break;
       case 0:
-        cout<<"Exit";
+        exit(0);
+        cout<<endl<<endl<<endl;
         break;
       default:
         cout<<"Wrong Choice";
+        cout<<endl<<endl<<endl;
         break;
     }
   }
