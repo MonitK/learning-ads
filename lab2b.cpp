@@ -82,11 +82,11 @@ int main()
         cout<<endl<<endl<<endl;
         break;
       case 2:
-        cout<<"Pop";
+        q.pop();
         cout<<endl<<endl<<endl;
         break;
       case 3:
-        cout<<"Display";
+        q.display();
         cout<<endl<<endl<<endl;
         break;
       case 0:
