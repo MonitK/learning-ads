@@ -1,6 +1,12 @@
 #include <iostream>
 
+#define SIZE 3
+
 using namespace std;
+
+int array[SIZE];
+int front=0;
+int rear=0;
 
 class Queue
 {};
