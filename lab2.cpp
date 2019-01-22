@@ -4,12 +4,8 @@ using namespace std;
 
 class Factorial
 {
-  public:
-    Factorial(int i)
-    {
-      cout<<"Parametrised Constructor calling"<<endl;
-    }
   private:
+    int result;
     int fact(int n)
     {
       if (n>1)
@@ -21,10 +17,16 @@ class Factorial
         return 1;
       }
     }
+  public:
+    Factorial(int i)
+    {
+      result = fact(i);
+      cout<<endl<<"Factorial of "<<i<<" is : "<<result;
+    }
 };
 
 int main()
 {
-  Factorial num(1);
+  Factorial num(5);
   return 0;
 }
