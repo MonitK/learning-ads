@@ -4,15 +4,14 @@
 
 using namespace std;
 
-int array[SIZE];
-int front=0;
-int rear=0;
-
 class Queue
 {
   private:
     int pushing_element;
     int i;
+    int array[SIZE];
+    int front=0;
+    int rear=0;
   public:
     void push()
     {
