@@ -27,6 +27,17 @@ class Queue
         rear++;
       }
     }
+    void pop()
+    {
+      if(front==rear)
+      {
+        cout<<"Queue Underflow";
+      }
+      else
+      {
+        front++;
+      }
+    }
 };
 
 int main()
