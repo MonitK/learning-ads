@@ -21,5 +21,25 @@ int main()
   cout<<"Enter your choice : ";
   cin>>choice;
 
+  cout<<endl<<endl;
+  switch(choice)
+  {
+    case 1:
+      cout<<"Push";
+      break;
+    case 2:
+      cout<<"Pop";
+      break;
+    case 3:
+      cout<<"Display";
+      break;
+    case 0:
+      cout<<"Exit";
+      break;
+    default:
+      cout<<"Wrong Choice";
+      break;
+  }
+
   return 0;
 }
