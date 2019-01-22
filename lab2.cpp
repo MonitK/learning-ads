@@ -9,10 +9,22 @@ class Factorial
     {
       cout<<"Parametrised Constructor calling"<<endl;
     }
+  private:
+    int fact(int n)
+    {
+      if (n>1)
+      {
+        return n * fact(n-1);
+      }
+      else
+      {
+        return 1;
+      }
+    }
 };
 
 int main()
 {
-  Factorial fact(1);
+  Factorial num(1);
   return 0;
 }
