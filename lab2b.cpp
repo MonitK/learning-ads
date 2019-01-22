@@ -12,6 +12,7 @@ class Queue
 {
   private:
     int pushing_element;
+    int i;
   public:
     void push()
     {
@@ -36,6 +37,21 @@ class Queue
       else
       {
         front++;
+      }
+    }
+    void display()
+    {
+      if (front == rear)
+      {
+        cout<<"Queue is empty";
+      }
+      else
+      {
+        cout<<"Queue is : ";
+        for(i=front;i<rear;i++)
+        {
+          cout<<array[i]<<" ";
+        }
       }
     }
 };
