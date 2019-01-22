@@ -23,6 +23,10 @@ class Factorial
       result = fact(i);
       cout<<endl<<"Factorial of "<<i<<" is : "<<result;
     }
+    ~Factorial()
+    {
+      cout<<endl<<"Destructor calling"<<endl;
+    }
 };
 
 int main()
