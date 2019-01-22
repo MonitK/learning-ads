@@ -25,7 +25,6 @@ class Factorial
     }
     ~Factorial()
     {
-      cout<<endl<<"Destructor calling"<<endl;
     }
 };
 
