@@ -18,6 +18,16 @@ class Binary
 			{
 				input();
 			}
+      else if(num==0)
+      {
+        i=0;
+        arr[i]=0;
+        i++;
+      }
+      else
+      {
+        convert();
+      }
 		}
 		void convert()
 		{
@@ -45,7 +55,6 @@ int main()
 {
 	Binary bin;
 	bin.input();
-	bin.convert();
 	bin.display();
 	return 0;
 }
