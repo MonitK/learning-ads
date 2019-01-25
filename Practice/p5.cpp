@@ -10,7 +10,7 @@ int main()
   str[0]='N';
   cout<<str<<endl;
     //Edit the name
-  str = strdup("JIT,Kharagpur");
+    //str = strdup("JIT,Kharagpur");
+      //Error: cannot change the name
   return 0;
-
 }
