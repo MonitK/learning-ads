@@ -8,7 +8,7 @@ int main()
   char * str = strdup("IIT,Kharagpur");
   str[0]='N';       //Edit the name
   cout<<str<<endl;
-  str = strdup("JIT,Kharagpur");
+  str = strdup("JIT,Kharagpur");    //Change the name
   cout<<str<<endl;
 
   /*
