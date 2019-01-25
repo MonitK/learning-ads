@@ -8,6 +8,7 @@ int main()
   const char * str = strdup("IIT,Kharagpur");
   cout<<str<<endl;
     //str[0]='N';
+  cout<<str<<endl;
     //Error : Cannot edit the name
   str = strdup("JIT,Kharagpur");
     //Change the name
