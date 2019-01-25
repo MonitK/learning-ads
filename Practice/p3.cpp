@@ -10,5 +10,12 @@ int main()
   cout<<str<<endl;
   str = strdup("JIT,Kharagpur");
   cout<<str<<endl;
+
+  /*
+    p4.cpp and p5.cpp are an expention to the same
+    program refer p4 and p5 to see the difference
+    in the const used.
+  */
+
   return 0;
 }
