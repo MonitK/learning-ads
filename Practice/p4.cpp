@@ -5,5 +5,6 @@ using namespace std;
 
 int main()
 {
+  char * str = strdup("IIT,Kharagpur");
   return 0;
 }
