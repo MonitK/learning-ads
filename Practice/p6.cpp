@@ -6,5 +6,11 @@ using namespace std;
 
 int main()
 {
+  int a=3,b;
+
+  b = SQUARE(a);
+
+  cout<<"Square : "<<b<<endl;
+
   return 0;
 }
