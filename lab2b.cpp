@@ -1,6 +1,6 @@
 #include <iostream>
 
-#define SIZE 3
+const int SIZE=3;
 
 using namespace std;
 
