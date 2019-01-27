@@ -1,7 +1,7 @@
 #include <iostream>
 #include <vector>
 
-#define MAX 100
+const int MAX=100;
 
 using namespace std;
 
