@@ -12,5 +12,8 @@ int main()
     //a and b have same memory
   ++a;
   cout<<"a : "<<a<<"  , b :"<<b<<endl;
+  ++b;
+  cout<<"a : "<<a<<"  , b :"<<b<<endl;
+    //Change in any variable also affecting change in other
   return 0;
 }
