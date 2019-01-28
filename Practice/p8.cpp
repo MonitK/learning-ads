@@ -10,5 +10,7 @@ int main()
   cout<<"a : "<<a<<"  , b :"<<b<<endl;
   cout<<"&a : "<<&a<<"  , &b :"<<&b<<endl;
     //a and b have same memory
+  ++a;
+  cout<<"a : "<<a<<"  , b :"<<b<<endl;
   return 0;
 }
