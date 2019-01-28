@@ -2,12 +2,15 @@
 
 using namespace std;
 
-#define SQUARE(x) x * x
+inline int SQUARE(int x)
+{
+  return x*x;
+}
 
 int main()
 {
   int a=3, b;
   b = SQUARE(a);
-  cout<<"Square : "<<b<<endl; 
+  cout<<"Square : "<<b<<endl;
   return 0;
 }
