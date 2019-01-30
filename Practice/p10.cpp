@@ -11,3 +11,12 @@ int main()
   cout<<"a : "<<a<<", b : "<<b<<endl<<endl;
   return  0;
 }
+
+void swap(int *x, int *y)
+{
+  int t;
+  t = *x;
+  *x = *y;
+  *y = t;
+}
+//Function Defined
