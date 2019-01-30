@@ -2,6 +2,9 @@
 
 using namespace std;
 
+void swap(int *, int *);
+//Function Declared
+
 int main()
 {
   int a=10,b=15;
