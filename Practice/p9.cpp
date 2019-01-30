@@ -2,6 +2,9 @@
 
 using namespace std;
 
+void Fun(int &b, int c);
+//Declaring Function
+
 int main()
 {
   int a=20;
