@@ -9,7 +9,8 @@ int main()
 {
   int a=20;
   cout<<"a : "<<a<<", &a : "<<&a<<endl<<endl;
-  Fun(a,a);
+  Fun(a/*Call by refrence*/,a/*Call by value*/);
+
   return 0;
 }
 
