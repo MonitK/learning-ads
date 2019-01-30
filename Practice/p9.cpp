@@ -9,6 +9,7 @@ int main()
 {
   int a=20;
   cout<<"a : "<<a<<", &a : "<<&a<<endl<<endl;
+  Fun(a,a);
   return 0;
 }
 
