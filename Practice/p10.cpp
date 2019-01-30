@@ -2,19 +2,20 @@
 
 using namespace std;
 
-void swap(int *, int *);
+void swap(int &, int &);
 //Function Declared
+//Call by address replaced by call by refrence
 
 int main()
 {
   int a=10,b=15;
   cout<<"a : "<<a<<", b : "<<b<<endl<<endl;
-  swap(&a, &b);
+  swap(a, b);
   cout<<"a : "<<a<<", b : "<<b<<endl<<endl;
   return  0;
 }
 
-void swap(int *x, int *y)
+void swap(int &x, int &y)
 {
   int t;
   t = *x;
