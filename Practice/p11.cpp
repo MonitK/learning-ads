@@ -6,10 +6,12 @@ using namespace std;
 
 int Ref (const int &x)
 {
-  ++x;
+  //++x;
     //Not Allowed
     //Value of x cant be changed
-  return (x);
+  //return (x);
+  return (x+1);
+    //No violation
 }
 
 int main()
