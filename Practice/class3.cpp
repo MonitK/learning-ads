@@ -2,6 +2,11 @@
 
 using namespace std;
 
+class calc
+{
+
+};
+
 int main()
 {
   int choice;
