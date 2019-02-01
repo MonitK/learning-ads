@@ -34,7 +34,7 @@ int main()
   int choice;
   int num1,num2;
   calc c;
-  cout<<endl<<endl<<"1.Addition"<<endl<<"2. Subtraction"<<endl<<"3. Multiplication"<<endl<<"4. Division"<<endl<<endl<<"0.Exit"<<endl;
+  cout<<endl<<endl<<"1.Addition"<<endl<<"2. Subtraction"<<endl<<"3. Multiplication"<<endl<<"4. Division"<<"5. Increment"<<endl<<"6. Decrement"<<endl<<endl<<"0.Exit"<<endl;
 	cout<<endl<<endl;
 	cout<<"Enter your choice : ";
 	cin>>choice;
@@ -69,6 +69,12 @@ int main()
       cin>>num2;
 			c.div(num1,num2);
 			break;
+    case 5:
+      cout<<"Enter the number to increment by one : ";
+      cin>>num1;
+    case 6:
+      cout<<"Enter the number to decrease by one : ";
+      cin>>num1;
 		case 0:
 			return 0;
 			break;
