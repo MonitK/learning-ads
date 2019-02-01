@@ -4,7 +4,29 @@ using namespace std;
 
 class calc
 {
-
+  private:
+    int result;
+  public:
+    void add(int n1,int n2)
+    {
+      result=n1+n2;
+      cout<<"Result is : "<<result;
+    }
+    void sub(int n1,int n2)
+    {
+      result=n1-n2;
+      cout<<"Result is : "<<result;
+    }
+    void mul(int n1,int n2)
+    {
+      result=n1*n2;
+      cout<<"Result is : "<<result;
+    }
+    void div(int n1,int n2)
+    {
+      result=n1/n2;
+      cout<<"Result is : "<<result;
+    }
 };
 
 int main()
