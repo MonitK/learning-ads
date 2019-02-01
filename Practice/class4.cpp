@@ -1,100 +1,48 @@
 #include <iostream>
-
 using namespace std;
 
-class calc
-{
-  private:
-    int result;
-  public:
-    void add(int n1,int n2)
-    {
-      result=n1+n2;
-      cout<<"Result is : "<<result;
-    }
-    void sub(int n1,int n2)
-    {
-      result=n1-n2;
-      cout<<"Result is : "<<result;
-    }
-    void mul(int n1,int n2)
-    {
-      result=n1*n2;
-      cout<<"Result is : "<<result;
-    }
-    void div(int n1,int n2)
-    {
-      result=n1/n2;
-      cout<<"Result is : "<<result;
-    }
-    void inc (int n1)
-    {
-      result=++n1;
-      cout<<"Result is : "<<result;
-    }
-    void dec (int n1)
-    {
-      result=--n1;
-      cout<<"Result is : "<<result;
+
+    class add {
+    public:
+    int a,b;
+    int convert(int *a, int *b )
+
+
+        {
+        return(*a+*b);
     }
 };
 
-int main()
-{
-  int choice;
-  int num1,num2;
-  calc c;
-  cout<<endl<<endl<<"1.Addition"<<endl<<"2. Subtraction"<<endl<<"3. Multiplication"<<endl<<"4. Division"<<endl<<"5. Increment"<<endl<<"6. Decrement"<<endl<<endl<<"0.Exit"<<endl;
-	cout<<endl<<endl;
-	cout<<"Enter your choice : ";
-	cin>>choice;
-	cout<<endl<<endl;
-  switch(choice)
-	{
-		case 1:
-			cout<<"Enter first number : ";
-      cin>>num1;
-      cout<<"Enter second number : ";
-      cin>>num2;
-			c.add(num1,num2);
-			break;
-		case 2:
-			cout<<"Enter first number : ";
-      cin>>num1;
-      cout<<"Enter second number : ";
-      cin>>num2;
-      c.sub(num1,num2);
-			break;
-		case 3:
-			cout<<"Enter first number : ";
-      cin>>num1;
-      cout<<"Enter second number : ";
-      cin>>num2;
-      c.mul(num1,num2);
-			break;
-		case 4:
-			cout<<"Enter first number : ";
-      cin>>num1;
-      cout<<"Enter second number : ";
-      cin>>num2;
-			c.div(num1,num2);
-			break;
-    case 5:
-      cout<<"Enter the number to increment by one : ";
-      cin>>num1;
-      c.inc(num1);
-      break;
-    case 6:
-      cout<<"Enter the number to decrease by one : ";
-      cin>>num1;
-      c.dec(num1);
-      break;
-		case 0:
-			return 0;
-			break;
-		default:
-			cout<<"Wrong input";
-			break;
-	}
-  return 0;
+
+    main() {
+    add values;
+    char reply;
+
+
+        while (1) {
+        system("cls");
+        cout << "\n\n\t Addition Program Using Class and Pointers ";
+        cout << "\n\n \t Created By: Kshitiz Saini";
+        cout << "\n";
+        cout << "\n\n Enter the first value : ";
+        cin >> values.a;
+        cout << "\n Enter the second value : ";
+        cin >> values.b;
+        cout << "\n\n";
+        cout << " The total sum is ";
+        cout << values.convert(&values.a,&values.b);
+        cout << ".";
+        cout <<"\n\n";
+        cout << " More Y/N :=> ";
+        cin >> reply;
+
+
+            if (reply == 'N' || reply == 'n') {
+            cout << "\n\n";
+            cout << "\t Thank You For Using This Program :-D";
+            break;
+        }
+    }
+    cout << "\n\n\n\n";
+    system("pause");
 }
