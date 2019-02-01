@@ -46,35 +46,28 @@ int main()
       cin>>num1;
       cout<<"Enter second number : ";
       cin>>num2;
-			//c.add(num1,num2);
+			c.add(num1,num2);
 			break;
 		case 2:
 			cout<<"Enter first number : ";
       cin>>num1;
       cout<<"Enter second number : ";
       cin>>num2;
-      //c.sub(num1,num2);
+      c.sub(num1,num2);
 			break;
 		case 3:
 			cout<<"Enter first number : ";
       cin>>num1;
       cout<<"Enter second number : ";
       cin>>num2;
-      //c.mul(num1,num2);
+      c.mul(num1,num2);
 			break;
 		case 4:
 			cout<<"Enter first number : ";
       cin>>num1;
       cout<<"Enter second number : ";
       cin>>num2;
-			//c.div(num1,num2);
-			break;
-		case 5:
-			cout<<"Enter base : ";
-			cin>>num1;
-			cout<<"Enter exponent : ";
-			cin>>num2;
-			//c.pwr(num1,num2);
+			c.div(num1,num2);
 			break;
 		case 0:
 			return 0;
