@@ -27,6 +27,16 @@ class calc
       result=n1/n2;
       cout<<"Result is : "<<result;
     }
+    void inc (int n1)
+    {
+      result=++n1;
+      cout<<"Result is : "<<result;
+    }
+    void dec (int n1)
+    {
+      result=--n1;
+      cout<<"Result is : "<<result;
+    }
 };
 
 int main()
@@ -34,7 +44,7 @@ int main()
   int choice;
   int num1,num2;
   calc c;
-  cout<<endl<<endl<<"1.Addition"<<endl<<"2. Subtraction"<<endl<<"3. Multiplication"<<endl<<"4. Division"<<"5. Increment"<<endl<<"6. Decrement"<<endl<<endl<<"0.Exit"<<endl;
+  cout<<endl<<endl<<"1.Addition"<<endl<<"2. Subtraction"<<endl<<"3. Multiplication"<<endl<<"4. Division"<<endl<<"5. Increment"<<endl<<"6. Decrement"<<endl<<endl<<"0.Exit"<<endl;
 	cout<<endl<<endl;
 	cout<<"Enter your choice : ";
 	cin>>choice;
@@ -72,9 +82,13 @@ int main()
     case 5:
       cout<<"Enter the number to increment by one : ";
       cin>>num1;
+      c.inc(num1);
+      break;
     case 6:
       cout<<"Enter the number to decrease by one : ";
       cin>>num1;
+      c.dec(num1);
+      break;
 		case 0:
 			return 0;
 			break;
