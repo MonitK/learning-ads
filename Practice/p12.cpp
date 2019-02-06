@@ -4,7 +4,7 @@ using namespace std;
 
 int main()
 {
-  int a = 10;
-  cout<<"a : "<<a<<", &a : "<<&a<<endl<<endl;
+  int a = 10,b;
+  cout<<"b : "<<b<<endl<<endl;
   return 0;
 }
