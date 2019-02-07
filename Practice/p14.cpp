@@ -19,6 +19,9 @@ int main()
 
   //g();
     //Error as function required at least one argument.
+  g(i);
+  g(i, d);
+  g(i, d, &c);
 
   cout<<"Default values";
   return 0;
