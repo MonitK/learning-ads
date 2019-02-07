@@ -2,7 +2,10 @@
 
 using namespace std;
 
-void f (int, double=0.0, char *);
+//void f (int, double=0.0, char *);
+  //Missing default parameter for all values.
+
+void g (int, double=0, char * =NULL);
 
 int main()
 {
