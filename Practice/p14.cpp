@@ -7,7 +7,8 @@ using namespace std;
 
 void g (int, double=0, char * =NULL);
   //OK
-void g (int, double=1, char * =NULL);
+//void g (int, double=1, char * =NULL);
+  //Cant initialise again
 
 int main()
 {
