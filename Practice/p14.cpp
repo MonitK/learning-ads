@@ -6,6 +6,8 @@ using namespace std;
   //Missing default parameter for all values.
 
 void g (int, double=0, char * =NULL);
+  //OK
+void g (int, double=1, char * =NULL);
 
 int main()
 {
