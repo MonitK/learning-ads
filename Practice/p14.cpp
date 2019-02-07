@@ -9,5 +9,6 @@ void g (int, double=0, char * =NULL);
 
 int main()
 {
+  cout<<"Default values";
   return 0;
 }
