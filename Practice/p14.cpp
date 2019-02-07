@@ -16,6 +16,10 @@ int main()
   int i=5;
   double d=2.3;
   char c = 'b';
+
+  //g();
+    //Error as function required at least one argument.
+
   cout<<"Default values";
   return 0;
 }
