@@ -3,6 +3,7 @@
 int main(int argc, char const *argv[])
 {
   char *s = "myworld";
-  int =3;
+  int i = 3;
+  printf("%10.*s",i,s);
   return 0;
 }
