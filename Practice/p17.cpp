@@ -4,10 +4,18 @@ using namespace std;
 
 class himani
 {
+private:
+  int n;
 public:
   himani ()
   {
-    cout<<"hello";
+    n=0;
+    cout<<"hello "<<n<<endl;
+  }
+  himani(int a)
+  {
+    n=a;
+    cout<<"hello "<<n<<endl;
   }
 };
 
@@ -17,5 +25,6 @@ int main()
   himani bansal1;
   himani bansal2;
   himani bansal3;
+  himani b(2);
   return 0;
 }
