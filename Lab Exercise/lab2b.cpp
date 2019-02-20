@@ -19,7 +19,7 @@ class Queue
       cin>>pushing_element;
       if (rear==SIZE)
       {
-        cout<<"Queue overflow"<<endl<<endl;
+        cout<<"Queue Overflow"<<endl<<endl;
       }
       else
       {
