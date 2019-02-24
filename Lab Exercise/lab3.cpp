@@ -33,6 +33,15 @@ int isEmpty()
     return top == NULL;
 }
 
+int peek()
+{
+    // check for empty stack
+    if (!isEmpty(top))
+        return top->data;
+    else
+        exit(EXIT_FAILURE);
+} 
+
 int main()
 {
   return 0;
