@@ -8,7 +8,9 @@ struct Node
     struct Node* link;
 };
 
-struct Node* top; 
+struct Node* top;
+
+void push(int data)
 
 int main()
 {
