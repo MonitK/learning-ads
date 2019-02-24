@@ -18,7 +18,7 @@ void push(int data)
   if (!temp)
   {
     printf("\nHeap Overflow");
-    exit(1); 
+    exit(1);
   }
 
   temp->data = data;
@@ -26,6 +26,11 @@ void push(int data)
   temp->link = top;
 
   top = temp;
+}
+
+int isEmpty()
+{
+    return top == NULL;
 }
 
 int main()
