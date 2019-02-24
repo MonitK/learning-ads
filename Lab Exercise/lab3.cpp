@@ -6,7 +6,9 @@ struct Node
 {
     int data;
     struct Node* link;
-}; 
+};
+
+struct Node* top; 
 
 int main()
 {
