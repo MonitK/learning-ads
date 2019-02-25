@@ -83,7 +83,10 @@ int main()
 {
   push(11);
   push(22);
-  push(33); 
+  push(33);
   push(44);
+
+  display();
+
   return 0;
 }
