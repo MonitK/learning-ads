@@ -37,7 +37,7 @@ int isEmpty()
 int peek()
 {
     // check for empty stack
-    if (!isEmpty(top))
+    if (!(isEmpty()))
         return top->data;
     else
         exit(EXIT_FAILURE);
