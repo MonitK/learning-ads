@@ -62,7 +62,7 @@ void pop()
 
 void display()
 {
-  
+  struct Node* temp;
 }
 
 int main()
