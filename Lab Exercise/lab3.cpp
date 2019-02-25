@@ -95,5 +95,7 @@ int main()
 
   display();
 
+  printf("\nTop element is %d\n", peek());
+
   return 0;
 }
