@@ -34,6 +34,11 @@ class Complex
       return comp;
     }
 
+    void printComplex(void)
+    {
+      cout << "Real      : " << this->real << endl<< "Imaginary : " << this->imag << endl;
+    }
+
 };
 
 int main()
