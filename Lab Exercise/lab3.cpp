@@ -40,7 +40,12 @@ int peek()
         return top->data;
     else
         exit(EXIT_FAILURE);
-} 
+}
+
+void pop()
+{
+  
+}
 
 int main()
 {
