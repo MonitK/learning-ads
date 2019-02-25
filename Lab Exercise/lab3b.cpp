@@ -43,5 +43,8 @@ class Complex
 
 int main()
 {
+  Complex a, b, c, d;
+  cout << "Setting first complex number " << endl;
+  a.setComplex();
   return 0;
 }
