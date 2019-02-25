@@ -10,6 +10,15 @@ class Complex
 
   public:
     Complex(int r = 0, int i = 0): real(r), imag(i) {};
+
+    void setComplex(void)
+    {
+      cout << "Enter the real and imaginary parts : ";
+      cin >> this->real;
+      cin >> this->imag;
+    }
+
+      
 };
 
 int main()
