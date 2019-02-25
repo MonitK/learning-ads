@@ -93,6 +93,7 @@ int main()
   pop();
   pop();
 
-  
+  display();
+
   return 0;
 }
