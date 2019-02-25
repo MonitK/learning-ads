@@ -44,7 +44,13 @@ int peek()
 
 void pop()
 {
-  
+  struct Node* temp;
+
+  if (top == NULL)
+  {
+    printf("\nStack Underflow");
+    exit(1);
+  } 
 }
 
 int main()
