@@ -50,7 +50,19 @@ void pop()
   {
     printf("\nStack Underflow");
     exit(1);
-  } 
+  }
+  else
+  {
+    temp = top;
+    top = top->link;
+    temp->link = NULL;
+    free(temp);
+  }
+}
+
+void display()
+{
+  
 }
 
 int main()
