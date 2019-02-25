@@ -25,6 +25,15 @@ class Complex
       comp.imag = this->imag + c.imag;
       return comp;
     }
+
+    Complex subtract(const Complex& c)
+    {
+      Complex comp;
+      comp.real = this->real - c.real;
+      comp.imag = this->imag - c.imag;
+      return comp;
+    }
+
 };
 
 int main()
