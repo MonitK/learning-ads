@@ -67,6 +67,15 @@ void display()
   {
     printf("\nStack Underflow");
     exit(1);
+  }
+  else
+  {
+    temp = top;
+    while (temp != NULL)
+    {
+      printf("%d->", temp->data);
+      temp = temp->link;
+    }
   } 
 }
 
