@@ -43,6 +43,17 @@ void fstudent::totavg(student & st1)
   st1.avg=st1.total/6.0;
 }
 
+void fstudent::display(student st2)
+{
+  int i;
+  cout<<st2.number<<" "<<st2.name<<" ( ";
+  for(i=0; i<6; i++)
+  {
+    cout<<st2.marks[i]<<" ";
+  }
+  cout<<") "<<st2.total<<" "<<st2.avg<<endl;
+}
+
 int main()
 {
   student st[5];
