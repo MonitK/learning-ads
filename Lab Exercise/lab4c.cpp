@@ -13,6 +13,13 @@ class student
     friend class fstudent;
 };
 
+class fstudent       // friend class
+{
+  public:
+    void totavg(student &);
+    void display(student);
+};
+
 int main()
 {
   return 0;
