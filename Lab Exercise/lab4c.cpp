@@ -32,6 +32,17 @@ void student::initialize()
   }
 }
 
+void fstudent::totavg(student & st1)
+{
+  int i,sum=0;
+  for(i=0; i<6; i++)
+  {
+    sum=sum+st1.marks[i];
+  }
+  st1.total=sum;
+  st1.avg=st1.total/6.0;
+}
+
 int main()
 {
   return 0;
