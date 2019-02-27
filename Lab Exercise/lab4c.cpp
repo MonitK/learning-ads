@@ -20,6 +20,18 @@ class fstudent       // friend class
     void display(student);
 };
 
+void student::initialize()
+{
+  int i;
+  cout<<"Number: ";    cin>>number;
+  cout<<"Name: ";        cin>>name;
+  cout<<"Marks in 6 Subjects: ";
+  for(i=0; i<6; i++)
+  {
+    cin>>marks[i];
+  }
+}
+
 int main()
 {
   return 0;
