@@ -51,6 +51,18 @@ public:
 	friend void calc(oxygen,hydrogen,sulphur);
 };
 
+void calc(oxygen o, hydrogen h, sulphur s)
+{
+	float x=((o.o_moles*o.o_molecules)+(h.h_moles*h.h_molecules)+(s.s_moles*s.s_molecules));
+	cout<<x;
+	if(x>=98)
+		cout<<"\nSulphuric Acid";
+	if(x>=114)
+		cout<<"\nThiosulphuric Acid";
+	if(x>=82)
+		cout<<"\nSulphurous Acid";
+}
+
 int main()
 {
   return 0;
