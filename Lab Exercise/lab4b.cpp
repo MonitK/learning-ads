@@ -36,6 +36,21 @@ public:
 	friend void calc(oxygen,hydrogen,sulphur);
 };
 
+class sulphur
+{
+	int s_moles;
+	float s_molecules;
+public:
+	void getS()
+	{
+		cout<<"\nMoles of sulphur - ";
+		cin>>s_moles;
+		cout<<"Weight of sulphur - ";
+		cin>>s_molecules;
+	}
+	friend void calc(oxygen,hydrogen,sulphur);
+};
+
 int main()
 {
   return 0;
