@@ -65,5 +65,8 @@ void calc(oxygen o, hydrogen h, sulphur s)
 
 int main()
 {
+  oxygen o;
+	hydrogen h;
+	sulphur s;
   return 0;
 }
