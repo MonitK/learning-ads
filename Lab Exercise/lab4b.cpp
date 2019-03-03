@@ -68,5 +68,9 @@ int main()
   oxygen o;
 	hydrogen h;
 	sulphur s;
+  o.getO();
+	h.getH();
+	s.getS();
+	calc(o,h,s);
   return 0;
 }
