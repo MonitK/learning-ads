@@ -21,6 +21,21 @@ public:
 	friend void calc(oxygen,hydrogen,sulphur);
 };
 
+class hydrogen
+{
+	int h_moles;
+	float h_molecules;
+public:
+	void getH()
+	{
+		cout<<"\nMoles of Hydrogen - ";
+		cin>>h_moles;
+		cout<<"Weight of Hydrogen - ";
+		cin>>h_molecules;
+	}
+	friend void calc(oxygen,hydrogen,sulphur);
+};
+
 int main()
 {
   return 0;
