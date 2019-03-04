@@ -47,6 +47,28 @@ public:
 	}
 };
 
+class External_Exam:public student
+{
+protected:
+	float emarks[6];
+public:
+	void get_emarks()
+	{
+		for(int i=0;i<6;i++)
+		{
+			cout<<"\nEnter Marks of subject "<<i+1<<" - ";
+			cin>>emarks[i];
+		}
+	}
+	void display_emarks()
+	{
+		for(int i=0;i<6;i++)
+		{
+			cout<<"\nMarks of subject "<<i+1<<" - "<<emarks[i];
+		}
+	}
+};
+
 int main()
 {
   return 0;
