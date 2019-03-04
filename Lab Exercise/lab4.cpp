@@ -69,6 +69,21 @@ public:
 	}
 };
 
+class Result:public External_Exam,public Internal_Exam
+{
+	float result[6];
+public:
+	void display_result()
+	{
+		for(int i=0;i<6;i++)
+		{
+			result[i]=(0.4*imarks[i])+(0.6*emarks[i]);
+			cout<<"\nResult subject "<<i+1<<" - "<<result[i];
+		}
+	}
+
+};
+
 int main()
 {
   return 0;
