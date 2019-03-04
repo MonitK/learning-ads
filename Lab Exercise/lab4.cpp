@@ -86,5 +86,13 @@ public:
 
 int main()
 {
+  Result stud;
+	stud.Internal_Exam::student_Details();
+	stud.Internal_Exam::show_student_Details();
+	stud.get_imarks();
+	stud.display_imarks();
+	stud.get_emarks();
+	stud.display_emarks();
+	stud.display_result();
   return 0;
 }
