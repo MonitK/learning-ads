@@ -27,4 +27,7 @@ int main(void)
   delete b;
   getchar();
   return 0;
-} 
+}
+
+//Program results in unexpected behaviour.
+//Virtual destrctor must be used to correct the behaviour. 
