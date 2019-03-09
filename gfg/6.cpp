@@ -27,4 +27,4 @@ int main()
    b->fun();  // this line prints "C::fun() called"
    getchar();
    return 0;
-} 
+}
