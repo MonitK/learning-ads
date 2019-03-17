@@ -22,11 +22,11 @@ public:
 
 class TA : public Faculty, public Student  {
 public:
-    TA(int x):Student(x), Faculty(x)   {
+    TA(int x):Student(x)   {
         cout<<"TA::TA(int ) called"<< endl;
     }
 };
 
 int main()  {
     TA ta1(30);
-} 
+}
