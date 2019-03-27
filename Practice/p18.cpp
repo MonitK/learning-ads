@@ -9,5 +9,9 @@ namespace myNamesp
 
 int main()
 {
-  cout<<"Hello World";
+
+  int x=3;
+  myNamesp::x=5;
+  cout<<x<<endl;
+  cout<<myNamesp::x;
 }
